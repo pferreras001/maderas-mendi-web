@@ -1,0 +1,19 @@
+//components
+
+//variables
+
+@import 'variables/colors';
+@import 'variables/breakpoints';
+@import 'variables/typography';
+@import 'variables/font-sizes';
+
+//elements
+
+@import 'elements/elements';
+
+//animations
+
+
+body{
+    font-family: $tg-jakarta !important;
+}

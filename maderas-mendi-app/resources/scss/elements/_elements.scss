@@ -1,0 +1,125 @@
+.title-black {
+    font-weight: $fw-extra_bold;
+    color: $color-black-1;
+}
+
+.title-white {
+    font-weight: $fw-extra_bold;
+    color: $color-white-1;
+}
+
+.title_thin-black {
+    font-weight: $fw-extra_light;
+    color: $color-black-1;
+}
+
+.text-gray {
+    color: $color-gray-2;
+}
+
+.text-black {
+    color: $color-black-1;
+}
+
+.text-white {
+    color: $color-white-1;
+}
+
+.form {
+    width: 90%;
+}
+
+.form *{
+    margin: 5px;
+}
+
+.input {
+    background: $color-gray-5;
+    border: 0;
+    color: $color-gray-1;
+    padding: 10px;
+    width: 100%;
+}
+
+.textarea {
+    background: $color-gray-5;
+    border: 0;
+    color: $color-gray-1;
+    height: 300px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+.button {
+    background: $color-black-1;
+    color: $color-white-1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.container-gray {
+    background-color: rgba(217, 217, 217, .57);
+    border-radius: 15px;
+    padding: 3rem;
+    width: max-content;
+}
+
+.circle-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .circle-image {
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+}
+
+.square-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .square-image {
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+}
+
+.rectangle-container {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rectangle-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.rectangle_vertical-container {
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rectangle_vertical-image {
+        display: block;
+        height: 100%;
+        width: auto;
+        position:relative;
+    }
+}
