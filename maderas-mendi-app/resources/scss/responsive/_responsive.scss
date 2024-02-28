@@ -1,0 +1,45 @@
+.flex-wrapper-31 {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    > * {
+        width: 100%;
+    }
+}
+
+.flex-wrapper-21 {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    > * {
+        width: 100%;
+    }
+}
+
+@media #{$breakpoints-medium} {
+
+}
+    
+@media #{$breakpoints-large} {
+    .flex-wrapper-31 {
+        flex-direction: row;
+
+        > * {
+            width: calc(100%/3);
+        }
+    }   
+    .flex-wrapper-21 {
+        flex-direction: row;
+
+        > * {
+            width: calc(100%/2);
+        }
+    }   
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

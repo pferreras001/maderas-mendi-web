@@ -1,0 +1,3 @@
+<div class="contact_map">
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.7016769550937!2d-1.8956364235832055!3d43.32050407111984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a619042629d9%3A0x29c83dadfbc1cf41!2sMaderas%20Mendi!5e0!3m2!1ses!2ses!4v1709036999043!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

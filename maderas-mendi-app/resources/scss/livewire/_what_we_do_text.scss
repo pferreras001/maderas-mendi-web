@@ -1,0 +1,27 @@
+.what_we_do_text {
+    padding: 50px 0;
+
+    .title_container {
+        display: flex;
+        width: 100%;
+
+        .title-black {
+            width: 22rem;
+        }
+    }
+    .right {
+        justify-content: flex-end;
+    }
+    .left {
+        justify-content: flex-start;
+    }
+
+    .text_container{
+
+        p {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+
+
+.service_item {
+    padding: 75px;
+
+
+    .title-black{
+        margin-top: 100px;
+    }
+}
+    
+@import '../variables/breakpoints';
+
+@media #{$breakpoints-medium} {
+
+}
+    
+@media #{$breakpoints-large} {
+    .service_item{
+        padding: 100px;       
+    }
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

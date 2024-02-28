@@ -1,0 +1,14 @@
+.what_we_do_images {
+    position: relative;
+    height: 1024px;
+    .back_image{
+        position: absolute;
+        z-index: 1;
+    }
+    .front_image{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+}

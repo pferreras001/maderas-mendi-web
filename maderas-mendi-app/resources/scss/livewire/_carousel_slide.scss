@@ -1,0 +1,24 @@
+.carousel_slide {
+    position: relative;
+
+    .container-gray {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}
+
+@import '../variables/breakpoints';
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+    // Add styles for large screens
+}
+
+@media #{$breakpoints-xlarge} {
+    // Add styles for extra-large screens
+}

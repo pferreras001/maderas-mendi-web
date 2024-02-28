@@ -1,0 +1,22 @@
+.blog_item {
+    padding: 50px;
+
+    *{
+        margin-bottom: 20px;
+    }
+}
+
+@import '../variables/breakpoints';
+
+@media #{$breakpoints-medium} {
+
+}
+    
+@media #{$breakpoints-large} {
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

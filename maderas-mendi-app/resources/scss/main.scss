@@ -1,5 +1,3 @@
-//components
-
 //variables
 
 @import 'variables/colors';
@@ -11,9 +9,46 @@
 
 @import 'elements/elements';
 
-//animations
+//responsive
+
+@import 'responsive/responsive';
+
+//propperties
+
+@import 'propperties/propperties';
+
+//livewires
+
+@import 'livewire/carousel';
+@import 'livewire/carousel_slide';
+
+@import 'livewire/service_item';
+@import 'livewire/services';
+
+@import 'livewire/blog_item';
+@import 'livewire/blog_content';
+@import 'livewire/blog_entry';
+
+@import 'livewire/product_item';
+
+@import 'livewire/image_slider';
+
+@import 'livewire/contact_form';
+@import 'livewire/contact_text';
+
+@import 'livewire/what_we_do_text';
+@import 'livewire/what_we_do_images';
+
+
+
 
 
 body{
     font-family: $tg-jakarta !important;
 }
+
+p {
+    white-space: pre-line;
+}
+
+

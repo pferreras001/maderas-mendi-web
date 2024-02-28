@@ -1,3 +1,15 @@
+.bg_green{
+    background-color: $color-green-1;
+}
+
+.bg_wood{
+    background-color: $color-wood-1;
+}
+
+.bg_white{
+    background-color: $color-white-1;
+}
+
 .title-black {
     font-weight: $fw-extra_bold;
     color: $color-black-1;
@@ -25,12 +37,13 @@
     color: $color-white-1;
 }
 
-.form {
-    width: 90%;
-}
 
 .form *{
     margin: 5px;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .input {
@@ -53,6 +66,7 @@
 
 .button {
     background: $color-black-1;
+    border: 0;
     color: $color-white-1;
     text-align: center;
     padding: 10px;
@@ -64,62 +78,103 @@
     border-radius: 15px;
     padding: 3rem;
     width: max-content;
+    max-width: 100vw;
 }
 
+
 .circle-container {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
     overflow: hidden;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    .circle-image {
+    img {
         display: block;
-        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
         width: auto;
+        height: 100%;
     }
 }
-
 .square-container {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    .square-image {
+    img {
         display: block;
-        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
         width: auto;
+        height: 100%;
     }
 }
+
 
 .rectangle-container {
-    width: 350px;
-    height: 200px;
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    .rectangle-image {
+    img {
         display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
         height: auto;
     }
 }
 
 .rectangle_vertical-container {
-    width: 250px;
-    height: 350px;
+    position: relative;
+    width: 100%;
+    padding-top: 200%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    .rectangle_vertical-image {
+    img {
         display: block;
-        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
         width: auto;
-        position:relative;
+        height: 100%;
     }
 }
+
+.rectangle_vertical_big-container {
+    position: relative;
+    width: 100%;
+    padding-top: 300%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+    }
+}
+
+.map-frame {
+    width: 100%;
+    height: 500px;
+}
+
