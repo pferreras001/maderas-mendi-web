@@ -1,0 +1,9 @@
+.what_we_do_item{
+    position: relative;
+    > :first-child {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+    }
+}

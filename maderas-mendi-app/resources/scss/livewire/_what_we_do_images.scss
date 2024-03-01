@@ -1,14 +1,48 @@
 .what_we_do_images {
     position: relative;
-    height: 1024px;
-    .back_image{
-        position: absolute;
-        z-index: 1;
+
+    .back_image {
+        position: relative;
+        opacity: .8;
+        width: 105%;
     }
+
     .front_image{
         position: absolute;
-        height: 100%;
-        width: 100%;
+        width: 60%;
+        z-index: 10;
+        bottom:-2%;
     }
+
+    .right {        
+        right: -8%;
+    }
+
+    .left {
+        left: -8%;
+    }
+
+}
+
+@media #{$breakpoints-medium} {
+
+}
+    
+@media #{$breakpoints-large} {
+    .front_image{
+        bottom: 40% !important;
+    }
+
+    .right {        
+        right: -33% !important;
+    }
+
+    .left {
+        left: -33% !important;
+    }
+}
+
+
+@media #{$breakpoints-xlarge} {
 
 }

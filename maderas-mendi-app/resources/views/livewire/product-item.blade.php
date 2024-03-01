@@ -1,10 +1,10 @@
 <div class="product_item">
-    <div class="square-container"><img src="{{$img}}" alt=""></div>
+    <div class="square-container"><img src="{{$product['image']}}" alt=""></div>
     <div class="title-black fs-medium">
-        {{$title}}
+        {{$product['title']}}
     </div>
     <p class="text-gray fs-regular">
-        {{$text}}
+        {{$product['text']}}
     </p>
 </div>
 

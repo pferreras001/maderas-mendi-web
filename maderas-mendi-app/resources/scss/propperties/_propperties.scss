@@ -13,3 +13,39 @@
     left: 50%;
     position: absolute;
 }
+
+.center-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-gradient-green-left {
+    background: $color-green-1;
+    background: linear-gradient(90deg, rgba(159, 176, 131,1) 0%, rgba(255,255,255,0) 91%);
+}
+
+.bg-gradient-green-right {
+    background: $color-green-1;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 8%, rgba(159, 176, 131,1) 100%);
+}
+
+.bg-gradient-wood-left {
+    background: $color-wood-1;
+    background: linear-gradient(90deg, rgba(176, 165, 131,1) 0%, rgba(255,255,255,0) 91%);
+}
+
+.bg-gradient-wood-right {
+    background: $color-wood-1;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 8%, rgba(176, 165, 131,1) 100%);
+}
+
+.bg-gradient-black-left {
+    background: $color-black-1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255,255,255,0) 91%);
+}
+
+.bg-gradient-black-right {
+    background: $color-black-1;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 8%, rgba(0, 0, 0,1) 100%);
+}

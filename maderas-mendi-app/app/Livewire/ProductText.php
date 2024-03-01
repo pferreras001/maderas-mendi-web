@@ -4,14 +4,13 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class BlogEntry extends Component
+class ProductText extends Component
 {
     public $title;
-    public $subtitle;
     public $text;
-    public $images;
+    public $file;
     public function render()
     {
-        return view('livewire.blog-entry');
+        return view('livewire.product-text');
     }
 }

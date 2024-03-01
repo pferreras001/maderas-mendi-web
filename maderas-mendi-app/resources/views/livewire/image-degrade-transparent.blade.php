@@ -1,16 +1,10 @@
 <style>
-    .gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    .image_degrade_transparent_{{$id}} {
+        background: linear-gradient(to {{$direction}}, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%), url({{$image}});
+        background-size: cover;
+        background-position: center;
     }
 
 </style>
 
-<div class="rectangle_vertical-container">
-    <img class="gradient_image" src="img/test/woods.png" alt="">
-    <div class="gradient"></div>
-</div>
+<div class="image_degrade_transparent_{{$id}} {{$container}}-container"></div>

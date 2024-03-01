@@ -6,9 +6,7 @@ use Livewire\Component;
 
 class ProductItem extends Component
 {
-    public $title;
-    public $text;
-    public $img;
+    public $product;
     public function render()
     {
         return view('livewire.product-item');

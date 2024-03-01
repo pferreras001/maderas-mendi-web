@@ -1,15 +1,32 @@
 <div class="what_we_do_images">
-    <div class="back_image">
-Helloooo
-    </div>
-    <div class="front_image">
-        @livewire('image-degrade-transparent',
-            [
-                'direction' => 'left',
-                'container' => 'rectangle_vertical',
-                'image' => 'img/test/woods.png',
-                'id' => '2'
-            ]
-        )
-    </div>
+    @if ($type === 'invert')
+        <div class="back_image">
+            @livewire('image-degrade-transparent',
+                [
+                    'direction' => 'right',
+                    'container' => 'square',
+                    'image' => $image,
+                    'id' => $id
+                ]
+            )
+        </div>
+        <div class="front_image left">
+            <div class="circle-container"><img src="img/test/woods.png" alt=""></div>
+        </div>
+
+    @elseif ($type === 'regular')
+        <div class="back_image">
+            @livewire('image-degrade-transparent',
+                [
+                    'direction' => 'left',
+                    'container' => 'square',
+                    'image' => $image,
+                    'id' => $id
+                ]
+            )
+        </div>
+        <div class="front_image right">
+            <div class="circle-container"><img src="img/test/woods.png" alt=""></div>
+        </div>
+    @endif    
 </div>

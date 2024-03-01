@@ -6,15 +6,16 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
-        <div class="square-container"><img src="img/test/woods.png" alt=""></div>
-        </div>
-        <div class="carousel-item">
-        <div class="square-container"><img src="img/test/wood_rings.png" alt=""></div>
-        </div>
-        <div class="carousel-item">
-        <div class="square-container"><img src="img/test/woods.png" alt=""></div>
-        </div>
+        @foreach($images as $image)
+            @if($loop->first)
+                <div class="carousel-item active">
+
+            @else
+                <div class="carousel-item">
+            @endif
+                    <div class="square-container"><img src="{{$image}}" alt=""></div>
+                </div>
+        @endforeach
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

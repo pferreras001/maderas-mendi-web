@@ -7,8 +7,8 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var slides = document.querySelectorAll('.slide');
-  var slidesContainer = document.querySelector('.slides');
+  var slides = document.querySelectorAll('.carousel .slides .slide');
+  var slidesContainer = document.querySelector('.carousel .slides');
   var currentSlide = 0;
 
   function showSlide(index) {
