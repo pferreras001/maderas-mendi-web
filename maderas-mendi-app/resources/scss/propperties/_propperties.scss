@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+.bg-black {
+    background-color: $color-black-1;
+}
+
 .bg-gradient-green-left {
     background: $color-green-1;
     background: linear-gradient(90deg, rgba(159, 176, 131,1) 0%, rgba(255,255,255,0) 91%);
@@ -48,4 +52,11 @@
 .bg-gradient-black-right {
     background: $color-black-1;
     background: linear-gradient(90deg, rgba(255,255,255,0) 8%, rgba(0, 0, 0,1) 100%);
+}
+
+.flex-nowrapper-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

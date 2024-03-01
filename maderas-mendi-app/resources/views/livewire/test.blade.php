@@ -1,4 +1,5 @@
 <div>
+@livewire('my-navbar')
     <div class="title-black fs-extra_big">
         Hello
     </div>

@@ -44,6 +44,8 @@
 @import 'livewire/brands_top';
 @import 'livewire/brands_slider';
 
+@import 'livewire/my_navbar';
+
 
 
 
@@ -52,8 +54,22 @@ body{
     font-family: $tg-jakarta !important;
 }
 
+a {
+    font-size: inherit !important;
+    color: inherit !important;
+}
+
 p {
     white-space: pre-line;
+}
+
+.content {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
 }
 
 
