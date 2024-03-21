@@ -1,21 +1,20 @@
 <div class="my_navbar bg-black">
     <div class="flex-nowrapper-horizontal">
         <div class="brand">
-            {!! file_get_contents('../resources/svg/navbar/brand.svg') !!}
+            <a class="opacity6" href="">{!! file_get_contents('../resources/svg/navbar/brand.svg') !!}</a>
         </div>
         <div class="menu_items text-white">
             <ul class="ul-horizontal">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contacto</a></li>
+                @foreach ($items as $item)
+                    <li class="opacity6"><a href="{{$item[1]}}">{{$item[0]}}</a></li>
+                @endforeach
                 <li>   
                     <div class="languages">
                         <div>Idiomas <span>></span></div>
                         <ul class="bg-black">
-                            <li><a href="">Euskara</a></li>
-                            <li><a href="">Castellano</a></li>
+                            @foreach ($languages as $language)
+                                <li class="opacity6"><a href="{{$language[1]}}">{{$language[0]}}</a></li>
+                            @endforeach
                         </ul>
                     </div>
                 </li>
@@ -29,15 +28,14 @@
         </div>
         <div class="menupage bg-black fs-medium">
             <ul class="title-white">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contacto</a></li>
+                @foreach ($items as $item)
+                    <li class="opacity6"><a href="{{$item[1]}}">{{$item[0]}}</a></li>
+                @endforeach
             </ul>
             <ul class="title-white fs-regular">
-                <li><a href="">Castellano</a></li>
-                <li><a href="">Euskara</a></li>
+                @foreach ($languages as $language)
+                    <li class="opacity6"><a href="{{$language[1]}}">{{$language[0]}}</a></li>
+                @endforeach
             </ul>
         </div>
     </div>

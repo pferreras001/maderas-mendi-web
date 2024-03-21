@@ -2,6 +2,10 @@
 
 @section('section')
 
-    <livewire:test>
+    @livewire('carousel')
+    @livewire('what-we-do')
+    @livewire('services')
+    @livewire('blog-home')
+    @livewire('brands')
 
 @endsection

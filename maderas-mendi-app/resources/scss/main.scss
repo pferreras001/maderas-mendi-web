@@ -17,6 +17,10 @@
 
 @import 'propperties/propperties';
 
+//animations
+
+@import 'animations/hover';
+
 //livewires
 
 @import 'livewire/carousel';
@@ -25,6 +29,7 @@
 @import 'livewire/service_item';
 @import 'livewire/services';
 
+@import 'livewire/blog_home';
 @import 'livewire/blog_item';
 @import 'livewire/blog_content';
 @import 'livewire/blog_entry';

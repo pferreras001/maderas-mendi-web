@@ -1,5 +1,21 @@
 <div>
-@livewire('my-navbar')
+@livewire('my-navbar',
+    [
+        'items' => array(
+            //array('route-name', 'path')
+            array('Inicio', ''),
+            array('Productos', ''),
+            array('Servicios', ''),
+            array('Blog', ''),
+            array('Contacto', ''),
+        ),
+        'languages' => array(
+            //array('language-name', 'path')
+            array('Castellano', ''),
+            array('Euskara', ''),
+        )
+    ]
+)
     <div class="title-black fs-extra_big">
         Hello
     </div>

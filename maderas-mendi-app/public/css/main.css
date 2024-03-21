@@ -533,6 +533,15 @@ a {
   align-items: center;
 }
 
+.opacity6 {
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.opacity6:hover {
+  opacity: 0.6;
+}
+
 .carousel {
   overflow: hidden;
   width: 100%;
@@ -567,6 +576,11 @@ a {
 @media only screen and (min-width: 1025px) {
   .service_item {
     padding: 100px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .blog_home {
+    min-height: 1200px;
   }
 }
 .blog_item {

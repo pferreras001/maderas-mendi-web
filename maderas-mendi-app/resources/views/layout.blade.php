@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
 
-  <title>Maria Carlavilla Studio</title>
+  <title>Maderas Mendi</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -44,6 +44,23 @@
 
 
   <div class="content">
+    @livewire('my-navbar',
+        [
+            'items' => array(
+                //array('route-name', 'path')
+                array('Inicio', ''),
+                array('Productos', ''),
+                array('Servicios', ''),
+                array('Blog', ''),
+                array('Contacto', ''),
+            ),
+            'languages' => array(
+                //array('language-name', 'path')
+                array('Castellano', ''),
+                array('Euskara', ''),
+            )
+        ]
+    )
 
     @yield('section')
 

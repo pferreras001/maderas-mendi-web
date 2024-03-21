@@ -8,6 +8,7 @@ class CarouselSlide extends Component
 {
     public $slide_title;
     public $slide_subtitle;
+    public $image;
 
     public function render()
     {

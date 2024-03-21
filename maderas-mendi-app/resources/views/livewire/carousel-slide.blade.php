@@ -1,8 +1,8 @@
 <div class="carousel_slide">
-    <div class="rectangle_vertical_big-container"><img src="img/test/wood_rings.png" alt=""></div>
+    <div class="rectangle_vertical_big-container"><img src="{{$image}}" alt=""></div>
     <div class="container-gray">
-        <div class="title-white fs-extra_big">{{$slide_title}}</div>
-        <div class="title-black fs-big">{{$slide_subtitle}}</div>
+        <div class="title-white fs-big">{{$slide_title}}</div>
+        <div class="title-black fs-medium">{{$slide_subtitle}}</div>
     </div>
 </div>
 

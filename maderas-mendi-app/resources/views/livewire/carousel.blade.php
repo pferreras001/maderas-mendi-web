@@ -1,8 +1,32 @@
 <div class="carousel">
   <div class="slides">
-    <div class="slide">@livewire('carousel-slide', ['slide_title' => 'Hello!', 'slide_subtitle' => 'This is our slide #1'])</div>
-    <div class="slide">@livewire('carousel-slide', ['slide_title' => 'Hello!', 'slide_subtitle' => 'This is our slide #2'])</div>
-    <div class="slide">@livewire('carousel-slide', ['slide_title' => 'Bye!', 'slide_subtitle' => 'This is our slide #3'])</div>
+    <div class="slide">
+      @livewire('carousel-slide', 
+        [
+          'slide_title' => 'Maderas Mendi.', 
+          'slide_subtitle' => 'Ayudando a confeccionar piezas de carpintería desde 1992.',
+          'image' => 'img/carousel/wood_rings.jpeg'
+        ]
+      )
+    </div>
+    <div class="slide">
+      @livewire('carousel-slide', 
+        [
+          'slide_title' => 'De su imaginario, a la realidad.', 
+          'slide_subtitle' => 'Da rienda suelta a tus ideas, nosotros las hacemos reales.',
+          'image' => 'img/carousel/artisan_wood.jpeg'
+        ]
+      )
+    </div>
+    <div class="slide">
+      @livewire('carousel-slide', 
+        [
+          'slide_title' => 'La calidad, nuestro punto de partida.', 
+          'slide_subtitle' => 'Nos enfocamos en la calidad, la artesanía, la sostenibilidad y la tradición.',
+          'image' => 'img/carousel/artisan_square.jpeg'
+        ]
+      )
+    </div>
   </div>
 
 <script>
